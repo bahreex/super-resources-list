@@ -1,13 +1,17 @@
 
 # **Super Resources List**
 
-## **A Super Assorted List - Learning Resources, Links, Articles, Blogs/Posts, Softwares, Utilities, and Whatever** - **Regularly Updated**
+## **An Assorted List - Learning Resources, Links, Articles, Blogs/Posts, Softwares, Utilities, and Whatever** - **Regularly Updated**
 
 ---
 
-### **Microsoft Azure**
+## **Microsoft Azure**
+
+### **Resources**
 
 - [Azure Heatmap](https://azureheatmap.azurewebsites.net/) - Azure Updates data for last 6 months visualized.
+
+### **Technical Focus Topics**
 
 - Azure DevOps
   - Azure Repos
@@ -35,10 +39,25 @@
 
 - Azure Policy
 
--
+- Azure Batch
+
+- Azure Automation
+
+- Azure Cloud Shell
+
+- Azure Site Recovery Services
+
+- Azure Migrate and Azure DBMS
+
+- Azure Networking
+  - Azure VNet Peering
 
 ### **Hashicorp Terraform**
 
 ### **PowerShell**
+
+### **Docker**
+
+### **Kubernetes**
 
 ### **Miscellaneous**
