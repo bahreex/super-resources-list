@@ -79,12 +79,8 @@
 
 ### **Databases**
 
-- [DB Knowledgebase and Comparisons/Rankings](https://db-engines.com/en/)
-- TimeSeries Databases
-  - InfluxDB
-    - [Best TS Tutorial](https://www.influxdata.com/training/what-is-time-series/)
-    - [Introduction to InfluxDB and Telegraf](https://www.influxdata.com/training/introduction-influxdb-telegraf/))
-    - [Intro to Telegraf and Plugin Ecosystem](https://www.influxdata.com/training/6-intro-telegraf-plugin-ecosystem/)
+- [DBMS Knowledgebase and Comparisons/Rankings](https://db-engines.com/en/)
+- TimeSeries Databases: [Best TS Tutorial (from InfluxDB)](https://www.influxdata.com/training/what-is-time-series/)
 
 ### BASH Shell Scripting Resources
 
