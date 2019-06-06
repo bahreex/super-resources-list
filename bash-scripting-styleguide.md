@@ -34,30 +34,38 @@ Environment
 
 All error messages should go to STDERR. 
 This makes it easier to separate normal status from actual issues. 
-A function to print out error messages along with other status information is recommended. 
+A function to print out error messages along with other status information is recommended.
+
+`
 err() {
   echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
 }
+`
 
+`
 if ! do_something; then
   err "Unable to do_something"
   exit "${E_DID_NOTHING}"
 fi
+`
 
 ## Comments
 File Header
 Start each file with a description of its contents. 
 Every file must have a top-level comment including a brief overview of its contents. A copyright notice and author information are optional. 
+
 Example: 
+`
 \#!/bin/bash
 \#
 \# Perform hot backups of Oracle databases.
+`
+## Function Comments
 
-Function Comments
-link 
-▽
 Any function that is not both obvious and short must be commented. Any function in a library must be commented regardless of length or complexity. 
+
 It should be possible for someone else to learn how to use your program or to use a function in your library by reading the comments (and self-help, if provided) without reading the code. 
+
 All function comments should contain: 
 Description of the function 
 Global variables used and modified 
@@ -65,12 +73,15 @@ Arguments taken
 Returned values other than the default exit status of the last command run 
 
 Example: 
-#!/bin/bash
-#
-# Perform hot backups of Oracle databases.
+`
+\#!/bin/bash
+\#
+\# Perform hot backups of Oracle databases.
+`
 
-export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'
+`export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'`
 
+`
 #######################################
 # Cleanup files from the backup dir
 # Globals:
@@ -84,7 +95,7 @@ export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'
 cleanup() {
   ...
 }
-
+`
 ## Implementation Comments
 
 Comment tricky, non-obvious, interesting or important parts of your code. 
@@ -93,10 +104,13 @@ This follows general Google coding comment practice. Don't comment everything. I
 ## TODO Comments
 
 Use TODO comments for code that is temporary, a short-term solution, or good-enough but not perfect. 
+
 This matches the convention in the C++ Guide. 
+
 TODOs should include the string TODO in all caps, followed by your username in parentheses. A colon is optional. It's preferable to put a bug/ticket number next to the TODO item as well. 
+
 Examples: 
-# TODO(mrmonkey): Handle the unlikely edge cases (bug ####)
+`# TODO(mrmonkey): Handle the unlikely edge cases (bug ####)`
 
 Formatting
 While you should follow the style that's already there for files that you're modifying, the following are required for any new code. 
@@ -110,31 +124,33 @@ Use blank lines between blocks to improve readability. Indentation is two spaces
 
 Maximum line length is 80 characters. 
 If you have to write strings that are longer than 80 characters, this should be done with a here document or an embedded newline if possible. Literal strings that have to be longer than 80 chars and can't sensibly be split are ok, but it's strongly preferred to find a way to make it shorter. 
-
-# DO use 'here document's
+`
+\# DO use 'here document's
 cat <<END;
 I am an exceptionally long
 string.
 END
 
-# Embedded newlines are ok too
+\# Embedded newlines are ok too
 long_string="I am an exceptionally
   long string."
-
+`
 ## Pipelines
 
 Pipelines should be split one per line if they don't all fit on one line. 
 If a pipeline all fits on one line, it should be on one line. 
 If not, it should be split at one pipe segment per line with the pipe on the newline and a 2 space indent for the next section of the pipe. This applies to a chain of commands combined using '|' as well as to logical compounds using '||' and '&&'. 
-# All fits on one line
+
+`
+\# All fits on one line
 command1 | command2
 
-# Long commands
+\# Long commands
 command1 \
   | command2 \
   | command3 \
   | command4
-
+`
 ## Loops
 
 Put ; do and ; then on the same line as the while, for or if. 
