@@ -56,9 +56,9 @@ Every file must have a top-level comment including a brief overview of its conte
 
 Example: 
 `
-\#!/bin/bash
-\#
-\# Perform hot backups of Oracle databases.
+#!/bin/bash
+#
+# Perform hot backups of Oracle databases.
 `
 ## Function Comments
 
@@ -74,24 +74,23 @@ Returned values other than the default exit status of the last command run
 
 Example: 
 `
-\#!/bin/bash
-\#
-\# Perform hot backups of Oracle databases.
+#!/bin/bash
+#
+# Perform hot backups of Oracle databases.
 `
 
 `export PATH='/usr/xpg4/bin:/usr/bin:/opt/csw/bin:/opt/goog/bin'`
 
-`
-#######################################
-# Cleanup files from the backup dir
-# Globals:
-#   BACKUP_DIR
-#   ORACLE_SID
-# Arguments:
-#   None
-# Returns:
-#   None
-#######################################
+`#######################################`
+`# Cleanup files from the backup dir
+`# Globals:
+`#   BACKUP_DIR
+`#   ORACLE_SID
+`# Arguments:
+`#   None
+`# Returns:
+`#   None
+`#######################################
 cleanup() {
   ...
 }
