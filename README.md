@@ -70,7 +70,7 @@
 
 ### **PowerShell**
 
-- Blogs
+- **Blogs**
   - <https://jamesone111.wordpress.com/>
 
 ### **Docker**
@@ -80,12 +80,12 @@
 ### **Databases**
 
 - [DBMS Knowledgebase and Comparisons/Rankings](https://db-engines.com/en/)
-- TimeSeries Databases: [Best TS Tutorial (from InfluxDB)](https://www.influxdata.com/training/what-is-time-series/)
+- **TimeSeries Databases**: [Best TS Tutorial (from InfluxDB)](https://www.influxdata.com/training/what-is-time-series/)
 
-### BASH Shell Scripting Resources
+### **BASH Shell Scripting Resources**
 
-- Google Bash Scripting Style Guide: <https://google.github.io/styleguide/shell.xml>
-- Good Ref Books (Order of Use):
+- **Google Bash Scripting Style Guide:** <https://google.github.io/styleguide/shell.xml>
+- **Good Ref Books (Order of Use):**
   - Learn Linux Shell Scripting - Fundaentals of Bash 4.4, Packt
     - Linux Command Line and Shell Scripting Bible, Third Edition, Wiley
     - Mastering Linux Shell Scripting, 2nd Edition, Packt
@@ -94,7 +94,7 @@
     - Learning Linux Shell Scripting, Packt
     - Linux Shell Scripting Bootcamp, Packt
     - Linux Shell Scripting Cookbook, 3rd Edition, Packt
-- References
+- **References**
   - General overview of the Linux filesystem: <https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
   - File attributes: <https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/>
   - Special file permissions: <https://thegeeksalive.com/linux-special-permissions/>
@@ -124,19 +124,22 @@
   - Sourcing: <https://bash.cyberciti.biz/guide/Source_command>
   - Profile and Bashrc: <https://bencane.com/2013/09/16/understanding-a-little-more-about-etcprofile-and-etcbashrc/>
   - Set up a Mail Transfer Agent with postfix: <https://www.hiroom2.com/2018/05/06/ubuntu-1804-postfix-en/>
-
-
+  - Bash-hackers on getopts: <http://wiki.bash-hackers.org/howto/getopts_tutorial>
+  - getopts in depth: <https://www.computerhope.com/unix/bash/getopts.htm>
+  - TLDP on process substitution: <http://www.tldp.org/LDP/abs/html/process-sub.html>
+  - TLDP on parameter substitution: <https://www.tldp.org/LDP/abs/html/parameter-substitution.html>
+  - GNU on parameter expansion: <https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html>
 
 ### **Miscellaneous**
 
 - Security
   - [OWASP Cheat Sheet v2](https://github.com/OWASP/CheatSheetSeries) - For high-valued Info on specific Application Security topics
-  - VS Code in a Browser - <https://ide.coder.com/>
-  - Run VS Code as a Server - coderhq.com
+  - **VS Code in a Browser** - <https://ide.coder.com/>
+  - **Run VS Code as a Server** - coderhq.com
 
 - Networking Resources
-  - Cisco Devnet - <https://developer.cisco.com/startnow/>
+  - **Cisco Devnet** - <https://developer.cisco.com/startnow/>
     - Networking 101
     - Coding & APIs
     - Cloud & Containers
-  - Expose local servers behind NATs and firewalls to the public internet over secure tunnels: <https://ngrok.com/>
+  - **Expose local servers behind NATs and firewalls to the public internet over secure tunnels:** <https://ngrok.com/>
