@@ -17,6 +17,14 @@
 - [Azure Data Architecture Guide](https://docs.microsoft.com/en-us/azure/architecture/data-guide/)
 - [Building Microservices on Azure](https://docs.microsoft.com/en-us/azure/architecture/microservices/)
 - [Azure Services Reference Map](https://nnmer.github.io/azure-services-map/dist/)
+- [Microsoft Azure Inter-Region Network Latency 2018](https://blog.bigbitbus.com/2018-05-15-Microsoft-Azure-Inter-Region-Network-Latency/)
+- [Azure Resource Explorer](https://resources.azure.com/)
+
+### **Blog Roll**
+
+- <https://adinermie.com/>
+- <https://pixelrobots.co.uk/>
+- <>
 
 ### **Technical Focus Topics**
 
@@ -25,18 +33,33 @@
   - Azure Pipeline
   - Azure Artifacts
   - Azure Board
+  - Azure Wiki
+  - Azure Test Plans
 
 - Azure DNS
 
-- Azure Firewall
+- Azure Security
+  - Azure Firewall
+  - Azure Application Gateway
+  - Azure Web Application Firewall (WAF)
+  - Azure Security Center
+  - Azure NSG
+  - Azure ASG
+  - Azure Storage Encryption
+  - Azure Policy
+    - Azure Citadel Labs: <https://azurecitadel.com/automation/policy/>
+  - Azure Sentinel
+  - Azure Key Vault
+  - Azure AD
+  - **Resources:**
+    - AZ-500 Study Resources:
+      - By Pixel Robot: <https://pixelrobots.co.uk/2019/03/study-resources-for-the-az-500-microsoft-certified-azure-security-engineer/>
+      - MS Cloud Society: <https://cloudsociety.fastlane.live/courses/course-v1:Microsoft+AZ-500.0+2019_T2/about>
+      - Azure Security HOL: <https://github.com/davisanc/AzureSecurityLabs>
+      - Practice Tests (Udemy): <https://www.udemy.com/azure-az-500-security-technologies-practice-test/>
+    - Azure Security Baseline: <https://github.com/Microsoft/MCW-Security-baseline-on-Azure>
 
 - Azure Load Balancer
-
-- Azure Application Gateway
-
-- Azure Web Application Firewall (WAF)
-
-- Azure KeyVault
 
 - Azure Storage
   - Blobs
@@ -46,8 +69,24 @@
 
 - Azure RM Templates
   - [Best Practices For ARM Templates Design](https://github.com/rgl/azure-content/blob/master/articles/best-practices-resource-manager-design-templates.md)
+  - ARM Primer: <https://azurecitadel.com/automation/tech-primer-arm/>
+  - Creating ARM Templates: <https://azurecitadel.com/automation/arm/>
+  - ARM Template Functions Ref: <https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions>
+  - ARM Template File Structure: <https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates>
+  - ARM Template Best Practices: <>
+  - ARM Template for Cloud COnsistency: <>
+  - Resource Providers and Types: <>
+  - Deployment Manager: <>
+  - Deployment Manager Health Check: <>
+  - Deployment Modes: <>
+  - Resource Deletion: <>
+  - Azure COmmon Security Attributes: <>
+  - Quickstart Templates: <https://github.com/Azure/azure-quickstart-templates>
+  - Azure published Templates: <https://azure.microsoft.com/en-gb/resources/templates/>  
+  - ARM Template Best Practices - <https://aka.ms/armbest>
+  - Azure Portal Template editor: <https://portal.azure.com/#create/Microsoft.Template>
+  - ARM Client tool: <https://github.com/projectkudu/ARMClient>
 
-- Azure Policy
 
 - Azure Batch
 
@@ -68,6 +107,8 @@
 
 ### **Hashicorp Terraform**
 
+- Azure Citadel Labs: Terraform on Azure <https://azurecitadel.com/automation/terraform/>
+
 ### **PowerShell**
 
 - **Blogs**
@@ -80,7 +121,11 @@
 ### **Databases**
 
 - [DBMS Knowledgebase and Comparisons/Rankings](https://db-engines.com/en/)
-- **TimeSeries Databases**: [Best TS Tutorial (from InfluxDB)](https://www.influxdata.com/training/what-is-time-series/)
+- **TimeSeries Databases:** [Best TS Tutorial (from InfluxDB)](https://www.influxdata.com/training/what-is-time-series/)
+
+### **Linux Resources**
+
+- **Build Interactive Browser based Playground:** <https://welcome.rootnroll.com/>
 
 ### **BASH Shell Scripting Resources**
 
@@ -94,7 +139,7 @@
     - Learning Linux Shell Scripting, Packt
     - Linux Shell Scripting Bootcamp, Packt
     - Linux Shell Scripting Cookbook, 3rd Edition, Packt
-- **References**
+- **Bash Topic References**
   - General overview of the Linux filesystem: <https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html>
   - File attributes: <https://linoxide.com/how-tos/howto-show-file-attributes-in-linux/>
   - Special file permissions: <https://thegeeksalive.com/linux-special-permissions/>
@@ -134,12 +179,13 @@
 
 - Security
   - [OWASP Cheat Sheet v2](https://github.com/OWASP/CheatSheetSeries) - For high-valued Info on specific Application Security topics
-  - **VS Code in a Browser** - <https://ide.coder.com/>
-  - **Run VS Code as a Server** - coderhq.com
+  - VS Code in a Browser: <https://ide.coder.com/>
+  - Run VS Code as a Server: <coderhq.com>
 
 - Networking Resources
-  - **Cisco Devnet** - <https://developer.cisco.com/startnow/>
+  - Cisco Devnet: <https://developer.cisco.com/startnow/>
     - Networking 101
     - Coding & APIs
     - Cloud & Containers
-  - **Expose local servers behind NATs and firewalls to the public internet over secure tunnels:** <https://ngrok.com/>
+  - Expose local servers behind NATs and firewalls to the public internet over secure tunnels: <https://ngrok.com/>
+  - Cross-platform TCP port testing, emulating the functionality of ping (port ping): <https://code.google.com/archive/p/paping/>
