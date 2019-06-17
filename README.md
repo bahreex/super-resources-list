@@ -19,7 +19,10 @@
 - [Azure Services Reference Map](https://nnmer.github.io/azure-services-map/dist/)
 - [Microsoft Azure Inter-Region Network Latency 2018](https://blog.bigbitbus.com/2018-05-15-Microsoft-Azure-Inter-Region-Network-Latency/)
 - [Azure Resource Explorer](https://resources.azure.com/)
-
+- [Azure Tips & Tricks](https://microsoft.github.io/AzureTipsAndTricks/)
+- [Azure Speed Test 2.0](https://azurespeedtest.azurewebsites.net/)
+- [Azure AD Application Proxy Connector Ports Test Tool](https://blogs.vmware.com/feed-items/azure-active-directory-application-proxy-connector-ports-test-tool)
+  
 ### **Blog Roll**
 
 - <https://adinermie.com/>
@@ -69,24 +72,23 @@
 
 - Azure RM Templates
   - [Best Practices For ARM Templates Design](https://github.com/rgl/azure-content/blob/master/articles/best-practices-resource-manager-design-templates.md)
-  - ARM Primer: <https://azurecitadel.com/automation/tech-primer-arm/>
-  - Creating ARM Templates: <https://azurecitadel.com/automation/arm/>
-  - ARM Template Functions Ref: <https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions>
-  - ARM Template File Structure: <https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates>
-  - ARM Template Best Practices: <>
-  - ARM Template for Cloud COnsistency: <>
-  - Resource Providers and Types: <>
-  - Deployment Manager: <>
-  - Deployment Manager Health Check: <>
-  - Deployment Modes: <>
-  - Resource Deletion: <>
-  - Azure COmmon Security Attributes: <>
-  - Quickstart Templates: <https://github.com/Azure/azure-quickstart-templates>
-  - Azure published Templates: <https://azure.microsoft.com/en-gb/resources/templates/>  
-  - ARM Template Best Practices - <https://aka.ms/armbest>
-  - Azure Portal Template editor: <https://portal.azure.com/#create/Microsoft.Template>
-  - ARM Client tool: <https://github.com/projectkudu/ARMClient>
-
+  - [ARM Primer](https://azurecitadel.com/automation/tech-primer-arm/)
+  - [Creating ARM Templates](https://azurecitadel.com/automation/arm/)
+  - [ARM Template Functions Ref - Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions)
+  - [ARM Template File Structure - Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+  - [ARM Template Best Practices - Docs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/template-best-practices)
+  - [ARM Template for Cloud Consistency](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates-cloud-consistency)
+  - [Resource Providers and Types](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-supported-services)
+  - [Deployment Manager](https://docs.microsoft.com/en-us/azure/azure-resource-manager/deployment-manager-overview)
+  - [Deployment Manager Health Check](https://docs.microsoft.com/en-us/azure/azure-resource-manager/deployment-manager-health-check)
+  - [Deployment Modes](https://docs.microsoft.com/en-us/azure/azure-resource-manager/deployment-modes)
+  - [Resource Deletion](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-delete)
+  - [Azure Common Security Attributes](https://docs.microsoft.com/en-us/azure/azure-resource-manager/azure-resource-manager-security-attributes)
+  - [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates>)
+  - [Azure published Templates - Docs](https://azure.microsoft.com/en-gb/resources/templates/)
+  - [ARM Template Best Practices - Docs](https://aka.ms/armbest)
+  - [Azure Portal Template Editor - Direct Link](https://portal.azure.com/#create/Microsoft.Template)
+  - [ARM Client tool](https://github.com/projectkudu/ARMClient)
 
 - Azure Batch
 
@@ -107,16 +109,25 @@
 
 ### **Hashicorp Terraform**
 
-- Azure Citadel Labs: Terraform on Azure <https://azurecitadel.com/automation/terraform/>
+- [Azure Citadel Labs: Terraform on Azure](https://azurecitadel.com/automation/terraform/)
+- [Terraform Workshop By Neil Peterson](https://github.com/neilpeterson/talk-terraform-workshop)
 
 ### **PowerShell**
 
-- **Blogs**
+- [POWERSHELL TIPS, TRICKS AND ADVICE](https://jdhitsolutions.com/blog/powershell-tips-tricks-and-advice/)
+
+- **PS Blogs**
   - <https://jamesone111.wordpress.com/>
+  - <https://jdhitsolutions.com/blog/>
 
 ### **Docker**
 
 ### **Kubernetes**
+
+- [Katacoda Kubernetes Playground](https://www.katacoda.com/courses/kubernetes/playground)
+- Certified Kubernetes Administrator (CKA) Resources
+  - [Official Home](https://www.cncf.io/certification/cka/)
+  - [CKA Exam Study Guide by Michael Saenz on Dev.NET(Stack)](http://devnetstack.com/certified-kubernetes-administrator-exam-study-guide/)
 
 ### **Databases**
 
@@ -127,7 +138,7 @@
 
 - **Build Interactive Browser based Playground:** <https://welcome.rootnroll.com/>
 
-### **BASH Shell Scripting Resources**
+## **BASH Shell Scripting Resources**
 
 - **Google Bash Scripting Style Guide:** <https://google.github.io/styleguide/shell.xml>
 - **Good Ref Books (Order of Use):**
