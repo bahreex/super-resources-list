@@ -142,7 +142,7 @@
 
 - **Google Bash Scripting Style Guide:** <https://google.github.io/styleguide/shell.xml>
 - **Good Ref Books (Order of Use):**
-  - Learn Linux Shell Scripting - Fundaentals of Bash 4.4, Packt
+  - Learn Linux Shell Scripting - Fundamentals of Bash 4.4, Packt
     - Linux Command Line and Shell Scripting Bible, Third Edition, Wiley
     - Mastering Linux Shell Scripting, 2nd Edition, Packt
     - Bash Cookbook, 2nd Edition, O'Reilly
